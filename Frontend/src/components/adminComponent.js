@@ -41,10 +41,17 @@ class AdminComponent extends Component {
     return (
       <div class="container">
       <div class="row">
+
+
+      <Button onClick>
+            Mostrar formularios
+          </Button> 
+
         <InputGroup className="mb-3">
           <Button onClick={this.crearPersona}variant="outline-secondary" id="button-addon1">
             Button
           </Button>
+                
       <FormControl
             aria-label="Example text with button addon"
             aria-describedby="basic-addon1" 
